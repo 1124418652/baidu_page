@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="baidu.css">
+    <title>baidu</title>
+</head>
+<body>
+
+
+    <div class="wrapper">
+        <p class="baidulogo">
+            <a href="https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&tn=SE_Pclogo_6ysd4c7a&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pc" class="logo">
+                今日新鲜事
+            </a>
+        </p>
+
+        <div>
+            <p>
+                <form method="get" action="">
+                    <input id="navigation" type="text" name="navigation-bar" value="请输入关键字">
+                    <input type="submit" value="百度一下">
+                </form>
+            </p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+        navigation = document.getElementById("navigation");
+        navigation.onfocus = function(){
+            if(this.value == "请输入关键字"){
+                this.value = "";
+            }
+        }
+        navigation.onblur = function(){
+            if(this.value == ""){
+                this.value = "请输入关键字";
+            }
+        }
+
+
+    </script>
+
+    <!-- <script type="text/javascript">
+        var div = document.getElementsByTagName('div')[0];
+        div.onclick = function(){
+            div.style.backgroundColor = "black";
+        }
+    </script> -->
+
+</body>
+</html>

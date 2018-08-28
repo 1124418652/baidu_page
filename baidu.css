@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.wrapper .baidulogo{
+    height: 350px;
+    text-align: center;
+}
+
+.logo{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    width: 0px;
+    height: 350px;
+    padding-left: 400px;
+    background-image: url(https://www.baidu.com/img/bd_logo1.png?where=super);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
