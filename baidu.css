@@ -26,3 +26,21 @@
     background-position: center center;
 }
 
+#navigation{
+    display: inline-block;;
+    width: 500px;
+    height: 36px;
+    border: 1px solid #b8b8b8;
+    padding-left: 4px;
+}
+
+#submitbutton{
+    cursor: pointer;
+    display: inline-block;
+    height: 38px;
+    width: 102px;
+    color: white;
+    background-color: #38f;
+    border: 0;
+    line-height: 38px;
+}
